@@ -1,18 +1,20 @@
 .messageBox {
+  word-wrap: break-word;
   padding: 1vmax;
   margin: 1.5vmax;
   border-radius: 0.5vmax;
-  display: inline-block;
   clear: both;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.2vmax;
+  max-width: 75%;
+  display: inline-block;
 }
 
 .right {
   float: right;
   background-color: crimson;
   color: white;
-  text-align: right;
+  /* text-align: right; */
 }
 
 .left {
@@ -21,22 +23,21 @@
   text-align: left;
 }
 
-.admin.join{
+.admin.join {
   float: left;
   background-color: rgb(123, 145, 226);
   text-align: left;
 }
 
-.admin.welcome{
-    float: left;
-    background-color: rgb(140, 248, 229);
-    text-align: left;
-
+.admin.welcome {
+  float: left;
+  background-color: rgb(140, 248, 229);
+  text-align: left;
 }
 
-.admin.leave{
-    float: left;
-    background-color: red;
-    text-align: left;
-    color: antiquewhite;
+.admin.leave {
+  float: left;
+  background-color: red;
+  text-align: left;
+  color: antiquewhite;
 }

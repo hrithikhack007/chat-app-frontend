@@ -79,15 +79,17 @@ const Chat = () => {
           </a>
         </div>
         <ReactScrollToBottom className="chatBox">
-          {messages.map((item, i) => (
-            <Message
-              key={i}
-              message={item.message}
-              classs={item.id === id ? "right" : "left"}
-              user={item.id === id ? "" : item.user}
-              action={item.action}
-            />
-          ))}
+          <div className="messageContainer">
+            {messages.map((item, i) => (
+              <Message
+                key={i}
+                message={item.message}
+                classs={item.id === id ? "right" : "left"}
+                user={item.id === id ? "" : item.user}
+                action={item.action}
+              />
+            ))}
+          </div>
         </ReactScrollToBottom>
         <div className="inputBox">
           <input
