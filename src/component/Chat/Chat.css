@@ -83,6 +83,14 @@
   transform: translateX(10px);
 }
 
+.activeUsers > span {
+  font-size: 1.3vmax;
+  color: white;
+  text-align: center;
+}
 
-
-
+.activeUsers > p {
+  color: white;
+  text-align: center;
+  font-size: 1.3vmax;
+}

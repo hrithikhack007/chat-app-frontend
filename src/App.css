@@ -28,7 +28,7 @@
 
   #joinInput {
     width: 65vw !important;
-    padding: 4vw !important;
+    padding: 3vw !important;
     font-size: 5vw !important;
     margin: 5vw !important;
   }
@@ -50,12 +50,12 @@
   }
 
   .header > h2 {
-    margin: 8vw !important;
-    font-size: 6vw !important;
+    margin: 4vw !important;
+    font-size: 5vw !important;
   }
 
   .header img {
-    margin: 6vw !important;
+    margin: 4vw !important;
     transform: scale(2) !important;
   }
   .header img:hover {
@@ -81,4 +81,38 @@
     border-radius: 1.5vw !important;
     font-size: 3.7vw !important;
   }
+
+  .activeUsers {
+    margin-right: 1vw !important;
+  }
+
+  .activeUsers > span {
+    font-size: 4.5vw !important;
+  }
+
+  .activeUsers > p {
+    font-size: 4.5vw !important;
+  }
+
+  .roomHeading {
+    font-size: 5.5vw !important;
+    margin-bottom: 2vw !important;
+  }
+
+  .rooms {
+    width: 100% !important;
+  }
+
+  .rooms .roomCard {
+    padding: 2vw 1.5vw !important;
+
+    margin: 2vw 1vw !important;
+
+    font-size: 3.5vw !important;
+  }
+  
+  .messageBox>.time{
+    font-size: 2.7vw !important;
+  }
+
 }

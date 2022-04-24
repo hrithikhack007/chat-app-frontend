@@ -10,6 +10,16 @@
   display: inline-block;
 }
 
+.messageBox > .time.rightt {
+  font-size: 1vmax;
+  text-align: right;
+}
+
+.messageBox > .time.leftt {
+  font-size: 1vmax;
+  text-align: left;
+}
+
 .right {
   float: right;
   background-color: crimson;
