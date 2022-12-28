@@ -11,8 +11,8 @@ import CurrentUsers from "../CurrentUsers/CurrentUsers.js";
 
 let socket;
 
-// const ENDPOINT = "https://sasta-tinder.herokuapp.com/";
-const ENDPOINT = "http://localhost:4500";
+const ENDPOINT = "https://chat-app-backend-rust.vercel.app/";
+// const ENDPOINT = "http://localhost:4500";
 
 const Chat = () => {
   const search = useLocation().search;
@@ -61,7 +61,7 @@ const Chat = () => {
   useEffect(() => {
     socket.on("sendMessage", (data) => {
       setMessages([...messages, data]);
-      console.log(data.time);
+      // console.log(data.time);
     });
 
     socket.on("userJoined", (data) => {
